@@ -1,34 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tranquilty Spa & Resort</title>
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400,700&display=swap"
+        rel="stylesheet">
     <!-- custom styles -->
     <link rel="stylesheet" href="css/custom.css">
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <a href="#">Tranquility Spa</a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Tranquility Spa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+
+                </ul>
+            </div>
         </nav>
+
+        <!-- hero header -->
+        <section class="container-fluid">
+            <div class="row position-relative d-flex justify-content-center align-items-center text-center">
+                <img src="img/lake.jpg" alt="lake image">
+                <div class="position-absolute feature-bg">
+                    <p class="feature-text">Tranquilty Spa &amp; Resort</p>
+                </div>
+            </div>
+        </section>
     </header>
-    <div class="container">
-        <h2 class="text-primary mt-5">Welcome to Bootstrap</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in excepturi delectus est reprehenderit. Amet officiis doloremque voluptas accusamus quibusdam animi obcaecati culpa placeat? Porro eaque rem obcaecati tenetur dolore.</p>
-    </div>
+
+    <!-- Welcome section -->
+    <div class="container py-5 text-center">
+        <div class="row">
+            <div class="col-md-6 offset-3">
+                <h2>Welcome to Tranquility Spa &amp; Resort</h2>
+                <img src="img/divider-purple.png" alt="divider image" class="w-25">
+            </div>
+        </div>
+        <div class="row mt-4 d-flex justify-content-around">
+            <div class="col-sm-3">
+                <img src="img/makeup.jpg" alt="makeup image" class="card-img-top rounded-circle">
+                <div class="card-body">
+                    <p class="card-text">Hair and Makeup</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="img/candles.jpg" alt="candles image" class="card-img-top rounded-circle">
+                <div class="card-body">
+                    <p class="card-text">Our Spa Facilities</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="img/retreat.jpg" alt="retreat image" class="card-img-top rounded-circle">
+                <div class="card-body">
+                    <p class="card-text">Tour the Resort</p>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- end container wrapper -->
 
 
 
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

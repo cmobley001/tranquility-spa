@@ -6,3 +6,30 @@ font-family: 'Open Sans', sans-serif;  // body copy
 body {
     font-family: 'Open Sans', sans-serif;
 }
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.feature-bg {
+    background: rgba(255, 255, 255,.3);
+    width: 100vh;
+    border-radius: 10px;
+}
+.feature-text {
+    font-size: 2rem;
+    line-height: 4rem;
+}
+.header-img {
+    min-height: 25vh;
+}
+.card-text {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .feature-bg {
+        width: 60vh;
+    }
+}
